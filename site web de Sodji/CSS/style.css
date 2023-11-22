@@ -1,0 +1,214 @@
+header{
+    position: fixed;
+   background-color: blue ;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -25PX;
+
+} 
+ header h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    border: solid 5px  rgb(247, 247, 250) ;
+    display: inline-block;
+    padding: 2px 15px;
+    border-radius: 32px;
+   /* background-color: blue;*/
+    color: rgb(247, 247, 250) ;
+    
+    
+ }
+
+.welcom{
+    max-width: 100%;
+    width: 1200px;
+   /* background-color: darkgray;*/
+    position: relative;
+    margin: 10px auto;
+    height: 470px;
+    
+
+}
+ .welcom img{
+    position: absolute;
+    left: 60%;
+    width: 300px;
+    border-radius: 45%;
+    background-color: darkgrey;
+    border-top-right-radius: 0%;
+    top: 18%;
+ }
+
+ .welcom h2{
+    position: absolute;
+    font-size: 2.4rem;
+    left: 6%;
+    top: 40%;
+    color: rgb(17, 17, 16);
+ }
+
+ .welcom h2 span{
+    color: blue;
+    font-weight: bold;
+ }
+ nav{
+    top: 16%;
+    margin: 25px auto;
+    position: sticky;
+    background-color: darkgrey ;
+    width: 100%;
+    z-index: 5;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+ }
+    
+    
+
+ nav ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    /*font-weight: bold;*/
+   
+    
+ }
+ 
+ main{
+    max-width: 100%;
+   
+   /* background-color: darkgray;*/
+    position: relative;
+    margin: 10px auto;
+    height: 470px;
+ }
+ main h3{
+    position: absolute;
+    font-size: 1.7rem;
+    /*background-color: rgb(209, 208, 205);*/
+    color: rgb(102, 41, 26);
+ }
+ main p{
+   color: blue;
+   position: absolute;
+   font-size: 1.2rem;
+   left: 25%;
+   width: 200px;
+   top: 68%;
+ }
+ main h3 span{
+    color: blue;
+    font-weight: bold;
+}
+ 
+main img{
+    position: absolute;
+   /* left: 10%;*/
+    width: 280px;
+    border-radius: 45%;
+   background-color: rgb(133, 127, 127);
+   /* border-top-right-radius: 0%;*/
+    top: 52%;
+}
+footer img{
+    position: sticky;
+   top: 100%;
+   
+    
+}
+div{
+   max-width: 100%;
+   width: 1200px;
+  /* background-color: darkgray;*/
+   position: relative;
+   margin: 10px auto;
+   height: 400px;
+   
+} 
+div img{
+   width: 200px;
+   border-radius: 40%;
+   background-color: darkgrey;
+   position: absolute;
+   top: 10%;
+} 
+div h4{
+   color: rgb(71, 71, 161);
+   text-align: center;
+   top: 20%;
+   position: absolute;
+   font-size: 2.3rem;
+}
+div p{
+   font-size: 2rem;
+   left: 20%;
+   top: 5%;
+   color: rgb(17, 17, 16);
+   position: absolute; 
+
+}
+
+div h5{
+   color: blue;
+  /* position: absolute;*/
+   text-align: center;
+   font-size: 2rem;
+}
+
+main h6{
+   color: rgb(17, 17, 16);
+   font-size: 1rem;
+   top: 1%;
+   position: absolute;
+   left: 1%;
+  /* width: -1000px;*/
+}
+h6 strong{
+   font-size: 2.5rem; 
+   text-align: center; 
+
+}
+
+h6 span{
+   font-size: 1.7rem;  
+   top: 2%;
+   color: rgb(17, 17, 16);
+}
+
+section{
+   position: absolute;
+   top: 25%;
+   width: 1200px;
+   left: 1%;
+}
+
+
+section p{
+   
+   font-size: 1rem;
+   top: 25%;
+   
+     
+} 
+section strong{
+   
+   font-size: 1.5rem;  
+   color: rgb(17, 17, 16);
+  
+} 
+section span{
+   
+   font-size: 1.9rem;
+   color: rgb(73, 35, 29);  
+   top: 5%;
+   
+}
+section img{
+
+   left: 60%;
+   width: 200px;
+   border-radius: 45%;
+}
